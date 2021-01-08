@@ -1,12 +1,12 @@
 #include<stdio.h>
 
-void swap(int *num1, int *num2) { 
+// void swap(int *num1, int *num2) { 
     
-    int temp = *num1; 
+//     int temp = *num1; 
     
-    *num1 = *num2; 
-    *num2 = temp; 
-} 
+//     *num1 = *num2; 
+//     *num2 = temp; 
+// } 
 
 void moveZeros(int * myArray, int size){
 	
