@@ -1,4 +1,4 @@
-
+# Validating that the candidate element is the majority element or not.
 def isMajorityElement(ME: int, arr: list)->bool:
 	count = 0
 
@@ -10,7 +10,7 @@ def isMajorityElement(ME: int, arr: list)->bool:
 		return True
 	return False
 
-
+# Selecting the correct canditate element.
 def getMajorityElement(arr: list)->int:
 	CE = arr[0]
 	count = 1
@@ -29,7 +29,7 @@ def getMajorityElement(arr: list)->int:
 	else:
 		print("No Majority Element Exist")
 
-
+# Test Cases.
 # print(getMajorityElement([2, 3, 4, 3, 3]))
 # print(getMajorityElement([2, 2, 2, 3, 4]))
 print(getMajorityElement([2, 3, 7, 3, 4]))
