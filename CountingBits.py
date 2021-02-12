@@ -1,6 +1,7 @@
-
+# Takiing input to find total number of 1's upto N.
 num = int(input("\nEnter a number : "))
 
+# countBits() function that will return total number of 1's upto N.
 def countBits(num: int)->list:
 	counts = [0]*(num+1)
 
