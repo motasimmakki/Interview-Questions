@@ -1,11 +1,11 @@
 
-# n = int(input("\nEnter the Number of Elements : "))
-# nums = [None]*n
+n = int(input("\nEnter the Number of Elements : "))
+nums = [None]*n
 
-# i = 0
-# while i < n:
-# 	nums[i] = int(input())
-# 	i += 1
+i = 0
+while i < n:
+	nums[i] = int(input())
+	i += 1
 
 def reduceArray(arr: list)->list:
 
@@ -20,7 +20,7 @@ def reduceArray(arr: list)->list:
 	return reducedArray
 
 # nums = [5, 10, 40, 30, 20]
-nums = [40, 30, 5, 20, 10]
+# nums = [40, 30, 5, 20, 10]
 
 print("\nEntered Array is :", nums)
 
