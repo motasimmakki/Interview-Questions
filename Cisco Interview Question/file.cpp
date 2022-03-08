@@ -1,4 +1,4 @@
-/**
+/*
  * Problem Statement:
  * 
  * Given the small phone with the keypad in which inorder to write a specific 
@@ -14,7 +14,12 @@
  * You have been given the string the numeric for and you have to decode the 
  * string and return the original text generated those keys press.
  * 
- * /
+ */
+
+
+// Including header files
+#include <bits/stdc++.h>
+using namespace std;
 
 /*
  * Complete the 'keypadDecode' function below.
@@ -24,10 +29,7 @@
  *  1. INTEGER N
  *  2. STRING keypad
  */
-
-#include <bits/stdc++.h>
-using namespace std;
-
+// Core function/method.
 string keypadDecode(string keypad) {
     string decodedStr = "";
     unordered_map<char, vector<char>> keys {
@@ -66,8 +68,9 @@ string keypadDecode(string keypad) {
     
     return decodedStr;
 }
-int main()
-{
+
+// main function or the driver function to test the code.
+int main() {
     int testCase;
     cin>> testCase;
 
