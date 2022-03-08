@@ -1,3 +1,21 @@
+/**
+ * Problem Statement:
+ * 
+ * Given the small phone with the keypad in which inorder to write a specific 
+ * message user have to press the keys several number of time, as shown in the
+ * hashmap `keys` in the solution below.
+ * 
+ * keys can be pressed several number of times, it will operate circularly,
+ * means if the user continue pressing the key even after position of the last 
+ * letter than it will get the very first letter and so on.
+ * 
+ * In order to the start next letter between words the '_' character if given.
+ * 
+ * You have been given the string the numeric for and you have to decode the 
+ * string and return the original text generated those keys press.
+ * 
+ * /
+
 #include <bits/stdc++.h>
 using namespace std;
 
