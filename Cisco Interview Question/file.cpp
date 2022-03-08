@@ -16,10 +16,6 @@
  * 
  * /
 
-#include <bits/stdc++.h>
-using namespace std;
-
-
 /*
  * Complete the 'keypadDecode' function below.
  *
@@ -28,6 +24,9 @@ using namespace std;
  *  1. INTEGER N
  *  2. STRING keypad
  */
+
+#include <bits/stdc++.h>
+using namespace std;
 
 string keypadDecode(string keypad) {
     string decodedStr = "";
